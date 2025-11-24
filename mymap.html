@@ -16,6 +16,8 @@
  <script>
   var mymap = L.map('mapid').setView([48.524, 9.056], 20);
   L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(mymap);
+  var markInsti = L.marker([48.524, 9.056]).addTo(mymap);
+  markBota.bindPopup("<p>Das ist das Geographische Institut</p>");
  </script>
 </body>
 </html>
